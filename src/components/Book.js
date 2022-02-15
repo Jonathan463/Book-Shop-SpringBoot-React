@@ -1,11 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class Book extends React.Component{
+export default class Book extends Component{
     render(){
         return(
-            <div className="text-black-50">Add Book</div>
+            <div className="text-white-50">Add Book</div>
         )
     }
 }
-
-export default Book;
