@@ -57,7 +57,7 @@ export default class Book extends Component{
         return(
             <div>
                 <div style={{"display": this.state.show ? "block" : "none"}}>
-                    <MyToast children = {{show:this.state.show, message:"Book Saved Successfully....."}}/>
+                    <MyToast children = {{show:this.state.show, message:"Book Saved Successfully..."}}/>
                 </div>
                 <Card className={"border border-dark bg-white text-white"}>
                     <Card.Header className={"text-dark"}><FontAwesomeIcon icon={faPlusSquare} />Add Book</Card.Header>
