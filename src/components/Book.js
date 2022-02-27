@@ -84,14 +84,14 @@ export default class Book extends Component{
                                     <Form.Label className={"text-dark"}>Cover Photo URL</Form.Label>
                                     <Form.Control required autoComplete="off"
                                                   type="text"
-                                                  placeholder="Enter Book Cover Photo URL"
+                                                  placeholder="Enter Book Cover Photo URL."
                                                   name="coverPhotoURL" value={coverPhotoURL} onChange={this.bookChange}/>
                                 </Form.Group>
                                 <Form.Group as={Col} controlId="formGridISBNNumber">
                                     <Form.Label className={"text-dark"}>ISBN Number</Form.Label>
                                     <Form.Control required autoComplete="off"
                                                   type="text"
-                                                  placeholder="Enter Book ISBN Number"
+                                                  placeholder="Enter Book ISBN Number."
                                                   name="isbnNumber" value={isbnNumber} onChange={this.bookChange}/>
                                 </Form.Group>
                             </Row>
@@ -100,7 +100,7 @@ export default class Book extends Component{
                                     <Form.Label className={"text-dark"}>Price</Form.Label>
                                     <Form.Control required autoComplete="off"
                                                   type="text"
-                                                  placeholder="Enter Book Price"
+                                                  placeholder="Enter Book Price."
                                                   name="price" value={price} onChange={this.bookChange}/>
                                 </Form.Group>
                                 <Form.Group as={Col} controlId="formGridLanguage">
